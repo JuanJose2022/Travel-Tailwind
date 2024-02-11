@@ -1,6 +1,6 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@tailwind base; // Hace referencia a los elementos de html tener actividad con ellos
+@tailwind components; // ... A las clases
+@tailwind utilities; // ... A las funcionalidades como focus, hover...
 
 .Card{
 	@apply w-48 h-64 flex-none shadow-md rounded-lg transform transition-all 
